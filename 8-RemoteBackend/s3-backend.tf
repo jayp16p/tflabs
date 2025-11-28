@@ -3,7 +3,8 @@ terraform {
     bucket = "my-bucket-tfstate231"
     key    = "s3remote.tf.state"
     region = "us-east-1"
-     access_key = "AKIAVSGXU2ZOEN4OVAVL"
-  secret_key = "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"
+     access_key = "AKIAVIKT7MOPXTGHDAUM"
+  secret_key = "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"
+  dynamodb_table = "statelock"
   }
 }
